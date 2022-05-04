@@ -1,25 +1,92 @@
 body{
     margin: 0;
-    background-color: #e0e4e4;
-}
-.navbar-brand{
-    margin-left: 4%;
+    background-color: #F7F6F2; 
+    
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url('../bg.jpg') repeat none;
+    background-position: center;
+    background-size: cover;
+    
 }
 
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
+
+/* horizontal nav bar */
+.up-bar{
+    width: 100%;
+    height: 64px;
+    background-color: #F66B0E;
+    position: fixed;
+    top: 0px;
+    
 }
-.navbar-nav{
-    margin-right: 4%;
+form{
+    width: 45%;
+    position: absolute;
+    right: 20px;
+    top:12px;
+    
+
+}
+.navbar-brand{
+    width: 80px;
+    font-size: 20px;
+    margin: 45px 15px 10px;
+    padding: 20px;
+    color: aliceblue;
+}
+.navbar{
+    width: 9.5rem;
+    height: 600px;
+    position:fixed;
+    top: 4rem;
+    bottom: 4rem;
+    padding: 0;
+}
+.nav-link{
+    
+    color: aliceblue;
+    margin-bottom: 5px;
+
+}
+.nav-item{
+    margin: 0 5px 14px;
+}
+.nav{
+    margin-bottom: 35px;
 }
 #footer{
-    height:4.5rem;
-    margin: 300% 0% 0% 0%;
-    background-color: #78938A;
+    width:100%;
+    height: 4rem;
+    margin-top: 900px;
+    background-color: antiquewhite;
+    
+    
 }
 p{
     text-align: center;
-    padding-top: 4rem;
-    margin:4rem 0 0;
+    padding-top: 25px;
+}
+@media screen and (max-width:426px) {
+    p{
+    padding-left: 45%;
+    }
+    .navbar-brand{
+        width:40px;
+        height: 40px;
+        font-size: 17px;
+        margin:0;
+        padding: 20px;
+        color: aliceblue;
+    }
+    form{
+        width: 50%;
+        height: 35px;
+        position: absolute;
+        right: 20px;
+        top:25px;
+        
+    
+    }
+
+    
 }
