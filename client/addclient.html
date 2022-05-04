@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Client</title>
+    <link rel="stylesheet" href="client.css">
+    <script src="client.js"></script>
+</head>
+<body>
+    <div class="form">
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" action="">
+            <fieldset>
+                <legend>Add Client</legend>
+
+                <p>Name: *<label class="validation-error hide" id="nameValidationError"></label>
+                    <input type="text" name="name" id="name" required>
+                </p>
+                <p>Company Name: *
+                    <input type="text" id="companyName" required>
+                </p>
+                <p>Designation: *
+                    <input type="text" id="designation" required>
+                </p>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: #e0e4e4;
+}
+.navbar-brand{
+    margin-left: 4%;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-nav{
+    margin-right: 4%;
+}
+#footer{
+    height:4.5rem;
+    margin: 300% 0% 0% 0%;
+    background-color: #78938A;
+}
+p{
+    text-align: center;
+    padding-top: 4rem;
+    margin:4rem 0 0;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    overflow: auto;
+    background-color: #c0c9ba;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #61764b;
+}
+button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border:2px solid black;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(36, 210, 36);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.addNew{
+    padding: 10px 20px;
+    background-color: #95bb72;
+    color: black;
+}
+
+
+.form{
+    margin: 5px;
+    display: block;
+}
+fieldset{
+    padding: 15px;
+    text-align: start;
+    background-color: #889480;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+legend{
+    font-weight: bolder;
+    font-size: larger;
+}
+p{
+    font-weight: bold;
+    padding: 10px;
+}
+input{
+    padding: 7px;
+    text-align: center;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #87ab69;
+    color: black;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    border: 1px solid black;
+    background-color: yellow ;
+    cursor: pointer;
+}
+.table_section {
+    height: 350px;
+    overflow: auto;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 4px;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+.table_section {
+    height: 350px;
+    overflow: auto;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 4px;
+    background-color:  #889480;
+}
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f7f0c6;
+    color: ;
+    font-size: 18px;
+}
+th, td {
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    text-align: center;
+
+
+}
+tr:hover{
+    background-color:  rgb(238, 212, 212);
+    color: blue;
+    cursor: pointer;
+}
+td button:nth-child(1){
+    background-color: aqua;
+    padding: 4px;
+    
+}
+td button:nth-child(2){
+    background-color: red;
+    padding: 4px;
+    
+}
+td button:nth-child(1):hover{
+    background-color: rgb(36, 210, 36);
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+td button:nth-child(2):hover{
+    background-color: rgb(36, 210, 36);
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+

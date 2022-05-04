@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    background-color: rgb(212, 210, 210);
+}
+
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(36, 210, 36);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.addNew{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+}
+.form{
+    margin: 5px;
+}
+fieldset{
+    padding: 15px;
+    text-align: start;
+    background-color: rgb(210, 201, 201);
+    
+}
+legend{
+    font-weight: bolder;
+    font-size: larger;
+}
+p{
+    font-weight: bold;
+    padding: 10px;
+}
+input{
+    padding: 7px;
+    text-align: center;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: orangered;
+    color: black;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    border: 1px solid black;
+    background-color: rgb(36, 210, 36) ;
+    cursor: pointer;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+td button:nth-child(1){
+    background-color: aqua;
+    
+}
+td button:nth-child(2){
+    background-color: red;
+    
+}
+td button:nth-child(1):hover{
+    background-color: rgb(36, 210, 36);
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+td button:nth-child(2):hover{
+    background-color: rgb(36, 210, 36);
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.table_section {
+    height: 350px;
+    overflow: auto;
+    padding: 7px;
+    border: 2px solid red;
+    margin: 4px;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+.table_section {
+    height: 350px;
+    overflow: auto;
+    padding: 7px;
+    border: 2px solid red;
+    margin: 4px;
+}
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    color: ;
+    font-size: 18px;
+}
+th, td {
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    text-align: center;
+
+
+}
+tr:hover{
+    background-color: whitesmoke;
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Leave</title>
+    <link rel="stylesheet" href="leave.css">
+    <script src="leave.js"></script>
+</head>
+<body>
+    <div class="form">
+            
+
+        <form  onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" action="index.html">
+            <fieldset>
+                <legend>ADD LEAVE</legend>
+
+                <p>Leave type: *<label class="validation-error hide" id="leave_typeValidationError"></label>
+                    <input list="leave_type" name="i=leave_type" required>
+                    <datalist id="leave_type">
+                        <option value="Casual Leave"></option>
+                        <option value="Medical Leave"></option>
+                        <option value="Paternity Leave"></option>
+                    </datalist>
+
+                </p>
+                <p>From: *
+                    <input type="date" name="date" id="date1" required>
+                </p>
+                <p>To: *
+                    <input type="date" name="date" id="date2" required>
+                </p>
+                <p>Number of Days: *
+                    <input type="text" id="text" required>
+                </p>
+                <p>Leave Reason: *
+                    <textarea name="leave_reason" id="leave_reason" cols="70" rows="3" required></textarea>
+
+                </p>
+
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+    </div>
+    
+</body>
+</html>
